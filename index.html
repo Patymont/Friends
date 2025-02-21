@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@87.5,400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+  <title>Aplicación de identificación de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2 class="title">⭒FⓇIⒺNⒹS⭒</h2>
+      <p>Reconoce la voz de la Gen 25</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-warning" onclick="starClasification()"> ESCUCHAR</button>
+        <h3 id="result_label">Escucho: </h3>
+        <h4 id="result_confidence">Precisión: </h4>
+        <br>
+        <img src="ini.png" id="ini" width="300" height="300">
+        <img src="shifu.png" id="shifu" width="300" height="300">
+        <img src="ren.png" id="ren" width="300" height="300">
+        <img src="val.png" id="val" width="300" height="300">
+        <img src="mika.png" id="mika" width="300" height="300">
+        <img src="lucy.png" id="lucy" width="300" height="300">
+
+        
+      </center>
+    </div>
+    <div class="nombres"> 
+      <center>
+        <button class="i">Ini</button>
+        <button class="i">shifu</button>
+        <button class="i">Val</button>
+        <button class="i">Ren</button>
+        <button class="i">Lucy</button>
+        <button class="i">Mika</button>
+      </center>
+     
+  </div>
+    <div class="copy_rigth_footer">
+      Desarrollado por ALO Montalvo, INI Corichi y YUNUEN Mont
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>

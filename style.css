@@ -1,0 +1,57 @@
+body{    
+    background-image: url("friends2.png");
+    background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+    font-family: "DynaPuff", serif;
+    font-style: normal;
+    font-size: 25px;
+}
+.title{
+    font-family: "Cherry Bomb One", serif;
+    font-size: 150px;
+    font-style: normal;
+}
+
+.header_div{
+    color: white;
+}
+.main_div button{
+    font-family: sans-serif, ;
+    margin-top: 20px;
+    width: 150px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    background-color: rgb(136, 129, 240);
+    font-size: 17px;
+    border-color:rgb(136, 129, 240);
+    border-style:dotted;
+}
+.i{
+    font-family: sans-serif, ;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    background-color: rgb(136, 129, 240);
+    font-size: 25px;
+    border-color:rgb(136, 129, 240);
+}
+.nombres´{
+margin-left: 100px;
+
+}
+.copy_rigth_footer{
+    position: fixed;
+    color: rgb(43, 8, 41);
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+    background-color: rgb(138, 123, 248);
+    line-height: 3;
+    text-align: right;
+    text-shadow: 5px 5px 5px rgb(58, 40, 58);
+}
